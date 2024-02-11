@@ -358,22 +358,22 @@ article .icon {
 /* PROJECTS SECTION */
 #projects {
   margin: 0 auto;
-  max-width: 800px;
-  width: 90%;
+  max-width: 1000px;
   position: relative;
 }
 
 .project-container {
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: start;
 }
 .color-container {
+  max-width: 280px;
   border-color: rgb(163, 163, 163);
   background: rgb(250, 250, 250);
   display: flex;
   flex-direction: column;
-  align-items: center;
   flex-wrap: wrap;
   justify-content: space-between;
 }
@@ -391,12 +391,9 @@ article .icon {
 }
 
 .project-btn {
-  width: 100px;
-  height: 40px;
   color: black;
   border-color: rgb(163, 163, 163);
   font-size: 12px;
-  padding: 5%;
 }
 
 /* CONTACT */
